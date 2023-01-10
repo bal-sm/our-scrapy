@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "our-scrapy"
+version = "0.1.0"
+description = ""
+authors = ["Iqbal Syifa Mahmuda <bal.mahmuda@gmail.com>"]
+readme = "README.md"
+packages = [{include = "our_scrapy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
